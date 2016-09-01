@@ -1,2 +1,13 @@
 The association rules is a pattern which states that if one event occurs another event occurs with a certain probability.
 It finds the relationship between otherwise unrelated data in a data resporitory.
+Market Basket Analysis
+
+
+           Support: The minimum times an item should be present in the frequent data set to be considered in the apriori algorithm
+                     Eg: No of transaction with both beer and diaper / total number of transactions
+
+           confidence: Basically the percentage of times a particular supplimentry product was bought along with a primary product
+
+                       No of transactions when beer was bought when diaper was bought/ number of transactions in which diaper was bought
+
+                      So the basic advantage of having such an analysis is that you need to promte only the primary product.
